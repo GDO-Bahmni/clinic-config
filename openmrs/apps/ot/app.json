@@ -1,7 +1,5 @@
 {
     "id": "bahmni.ot.scheduling",
-    "extensionPoints": [
-    ],
     "config": {
       "patientDashboardUrl": {
         "link": "/bahmni/clinical/#/default/patient/{{patientUuid}}/dashboard",
