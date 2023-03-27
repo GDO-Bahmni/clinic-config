@@ -54,5 +54,10 @@
         "config": {
             "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/diagnosisCount.sql"
         }
+    },
+    "drugOrderReport": {
+        "name": "Drug Order report",
+        "type": "DrugOrder",
+        "requiredPrivilege": "app:reports"
     }
 }
