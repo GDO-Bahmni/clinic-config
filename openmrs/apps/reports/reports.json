@@ -59,5 +59,24 @@
         "name": "Drug Order report",
         "type": "DrugOrder",
         "requiredPrivilege": "app:reports"
+    },
+    "bloodPressure": {
+        "name": "Blood Pressure",
+        "type": "obsCount",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Systolic",
+                "Diastolic"
+            ],
+            "countOnlyClosedVisits": "false",
+            "countOncePerPatient": "false",
+            "visitTypes": [
+                "OPD",
+                "IPD"
+            ]
+        }
     }
+
 }
