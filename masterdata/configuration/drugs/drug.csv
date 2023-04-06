@@ -516,3 +516,8 @@ Uuid,Void/Retire,Name,Concept Drug,Concept Dosage Form,Strength,_version:1
 ,,Vitamin A 100000 IU,Vitamin A,Oral capsule,100000 IU,
 ,,Vitamin A 100000 IU/ml,Vitamin A,Oral solution,100000 IU/ml,
 ,,Anti-rabies vaccine,Anti-rabies vaccine,,,
+,,Isoniazid,Isoniazid,Tablet,,
+,,Pyrazinamide,Pyrazinamide,Tablet,,
+,,Ethambutol,Ethambutol,Tablet,,
+,,Benzathine penicillin V,Benzathine penicillin V,Injection,,
+,,Chloramphenicol,Chloramphenicol,Injection,,
