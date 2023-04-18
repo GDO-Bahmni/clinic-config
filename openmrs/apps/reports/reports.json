@@ -59,5 +59,13 @@
         "name": "Drug Order report",
         "type": "DrugOrder",
         "requiredPrivilege": "app:reports"
+    },
+    "highBloodPressure":{
+        "name": "High Blood Pressure Report",
+        "type": "MRSGeneric",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/highBloodPressure.sql"
+        }
     }
 }
